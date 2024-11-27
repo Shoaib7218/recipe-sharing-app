@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#recipes-container {
+    margin-top: 20px;
+}
+
+.recipe-card {
+    background: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}

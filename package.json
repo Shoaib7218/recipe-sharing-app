@@ -1,0 +1,20 @@
+{
+  "name": "recipie-sharing",
+  "version": "1.0.0",
+  "description": "This is a recipie sharing app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Shoaib",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.1",
+    "mongoose": "^5.13.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
